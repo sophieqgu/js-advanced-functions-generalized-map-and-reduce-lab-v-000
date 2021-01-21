@@ -7,7 +7,7 @@ function map(sourceArray, callback) {
   return result;
 }
 
-function reduce(sourceArray, callback) {
+function reduce(sourceArray, callback, startValue) {
   let result = callback(sourceArray);
   return result;
 }
